@@ -71,12 +71,17 @@ python app.py
 ### 5️⃣ Test the Endpoint
 Using curl:
 
+```
 curl -X POST http://localhost:5000/transform \
   -H "Content-Type: application/json" \
   -d '{"text":"Your service is absolutely terrible!"}'
+```
 Expected Response:
 
+```
 {"transformed":"I am very disappointed with the service I received. Could you please assist me with this issue?"}
+```
+
 💡 Chrome Extension Integration
 
 You can pair this server with a Chrome Extension to automatically rewrite customer support chat text before sending. See extension/ for an example.

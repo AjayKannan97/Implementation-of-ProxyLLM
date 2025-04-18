@@ -39,3 +39,11 @@ User Input ➡️ Python Backend ➡️ Sentiment Analysis ⬇️ If Negative �
 
 ```bash
 pip install flask requests nltk
+```
+
+And download the NLTK sentiment model:
+
+'''bash
+import nltk
+nltk.download('vader_lexicon')
+'''
